@@ -29,4 +29,8 @@ public class Visitor {
     public void subtractMoney(double amount) {
         money-= amount;
     }
+
+    public double getHeight() {
+        return height;
+    }
 }
