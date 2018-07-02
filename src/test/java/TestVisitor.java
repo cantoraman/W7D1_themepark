@@ -17,4 +17,9 @@ public class TestVisitor {
 
     }
 
+    @Test
+    public void hasName(){
+        assertEquals("Can", visitor.getName());
+    }
+
 }

@@ -11,4 +11,8 @@ public class Visitor {
         this.height = height;
         this.money = money;
     }
+
+    public String getName() {
+        return name;
+    }
 }
