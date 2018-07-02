@@ -1,5 +1,4 @@
-import Attractions.*;
-import Stalls.*;
+import ThemeParkControl.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
