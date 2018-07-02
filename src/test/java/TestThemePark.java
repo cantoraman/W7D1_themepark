@@ -38,7 +38,6 @@ public class TestThemePark {
 
     @Test
     public void canVisitorVisit(){
-
         themePark.visit(visitor1, dodgems);
         assertEquals(95.5, visitor1.getMoney(), 0);
     }
