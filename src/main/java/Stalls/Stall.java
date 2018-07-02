@@ -14,5 +14,12 @@ public abstract class Stall implements Interfaces.IReviewed {
     }
 
 
+    public int getRating() {
+        return rating;
+    }
 
+
+    public String getName() {
+        return name;
+    }
 }

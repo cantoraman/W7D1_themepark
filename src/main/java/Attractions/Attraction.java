@@ -11,5 +11,13 @@ public abstract class Attraction implements Interfaces.IReviewed{
 
 
 
+    public String getName() {
+        return name;
+    }
 
+
+
+    public int getRating() {
+        return rating;
+    }
 }
