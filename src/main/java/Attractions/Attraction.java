@@ -1,6 +1,6 @@
 package Attractions;
 
-public abstract class Attraction implements Interfaces.IReviewed{
+public abstract class Attraction implements Interfaces.IReviewed, Interfaces.IControl{
 
     private String name;
     private int rating;

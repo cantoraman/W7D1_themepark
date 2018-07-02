@@ -1,6 +1,6 @@
 package Stalls;
 
-public abstract class Stall implements Interfaces.IReviewed {
+public abstract class Stall implements Interfaces.IReviewed, Interfaces.IControl{
 
     private String name;
     private String owner;
