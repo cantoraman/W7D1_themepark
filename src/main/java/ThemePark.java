@@ -7,4 +7,9 @@ public class ThemePark {
     private String name;
 
     private ArrayList<IControl> operationList;
+
+
+    public ThemePark(String name) {
+        this.name = name;
+    }
 }
